@@ -1,7 +1,13 @@
 class School
   
-  attr_reader :name
-  ROSTER = {} #keys of grade levels... value of each key will be an arry of student names
+  attr_reader :name, :roster
+  
+    
+
+def initialize(name)
+  @name = name
+  
+  @roster = {} #keys of grade levels... value of each key will be an arry of student names
    
     #   hash["new_key"] = []
     # hash["new_key"] << "new_value_for_value_array"
@@ -9,9 +15,6 @@ class School
     # hash
     # => {"new_key"=>["new_value_for_value_array"]}
     
-
-def initialze(name)
-  @name = name
 end
   
   def add_student(student, grade) # student name and grade 
