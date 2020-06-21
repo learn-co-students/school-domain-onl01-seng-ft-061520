@@ -1,5 +1,6 @@
 class School
   
+  attr_reader :name
   ROSTER = {} #keys of grade levels... value of each key will be an arry of student names
    
     #   hash["new_key"] = []
