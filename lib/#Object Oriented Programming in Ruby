@@ -1,0 +1,35 @@
+#Object Oriented Programming in Ruby
+
+##What is OO (Object Oritentation)?
+
+- we will define objects
+- providing organiztion and structure to your code
+- encapsulation - we group together atrributes (data) and fuctionality
+(methods)
+
+## Ruby Classes
+- Syntax:
+```Ruby
+class Breakfast
+end
+```
+## Instatiating a class
+- What is instantiation?
+    - creating an instgance of an objects
+    - scope comes into play - an instance of class creates its own scope
+    - we have a blueprint, the class, and instantiation
+    means creating one of those things, bringing the object "to life"
+
+    ## Attributes of Ruby Classes
+    
+    
+    ## Fuctionality of Ruby Classes
+    - isntance methods are defined within the body of the class
+    - syntax:
+    ```ruby
+    class MyClass
+    #...
+    def method_name(parameters)
+    # method body
+    end
+    end
